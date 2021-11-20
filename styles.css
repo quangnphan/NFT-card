@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(215, 51%, 70%);
+}
+h3{
+    color: #fff;
+    margin: 20px 0;
+}
+h3:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+.wrapper{
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    max-width: 350px;
+}
+.line{
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.image{
+    height: 310px;
+}
+.image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.info .ethe{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer img{
+    height: 50px;
+    margin-right: 20px;
+}
+.footer span{
+    color: #fff;
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.image:hover{
+    cursor: pointer;
+    background-image: url("/images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:hsl(178, 100%, 50%);
+    border-radius: 10px;
+}
+.image img:hover{
+    opacity: 0.5;
+}
